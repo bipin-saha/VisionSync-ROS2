@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/bipin/ros2_ws/build/blue_color_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target color_filter[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/color_filter.dir/src/color_filter.cpp.o[0m
+[9.680s] [100%] [32m[1mLinking CXX executable color_filter[0m
+[10.745s] [100%] Built target color_filter
+[10.807s] Invoked command in '/home/bipin/ros2_ws/build/blue_color_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8
+[10.817s] Invoking command in '/home/bipin/ros2_ws/build/blue_color_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --install /home/bipin/ros2_ws/build/blue_color_filter
+[10.823s] -- Install configuration: ""
+[10.823s] -- Installing: /home/bipin/ros2_ws/install/blue_color_filter/lib/blue_color_filter/color_filter
+[10.826s] -- Set runtime path of "/home/bipin/ros2_ws/install/blue_color_filter/lib/blue_color_filter/color_filter" to ""
+[10.826s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/package_run_dependencies/blue_color_filter
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/parent_prefix_path/blue_color_filter
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.sh
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.dsv
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.sh
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.dsv
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.bash
+[10.827s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.sh
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.zsh
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.dsv
+[10.828s] -- Installing: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.dsv
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/packages/blue_color_filter
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig.cmake
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig-version.cmake
+[10.828s] -- Up-to-date: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.xml
+[10.829s] Invoked command in '/home/bipin/ros2_ws/build/blue_color_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --install /home/bipin/ros2_ws/build/blue_color_filter

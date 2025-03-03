@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing banana_webcam_driver.egg-info/PKG-INFO
+writing dependency_links to banana_webcam_driver.egg-info/dependency_links.txt
+writing entry points to banana_webcam_driver.egg-info/entry_points.txt
+writing requirements to banana_webcam_driver.egg-info/requires.txt
+writing top-level names to banana_webcam_driver.egg-info/top_level.txt
+reading manifest file 'banana_webcam_driver.egg-info/SOURCES.txt'
+writing manifest file 'banana_webcam_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana-webcam-driver.egg-link (link to .)
+Installing webcam_driver script to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/banana_webcam_driver
+
+Installed /home/bipin/ros2_ws/build/banana_webcam_driver
+running symlink_data
+symbolically linking /home/bipin/ros2_ws/build/banana_webcam_driver/resource/banana_webcam_driver -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/ament_index/resource_index/packages
+symbolically linking /home/bipin/ros2_ws/build/banana_webcam_driver/package.xml -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/banana_webcam_driver

@@ -1,0 +1,32 @@
+[0.518s] Invoking command in '/home/bipin/ros2_ws/build/banana_webcam_driver': PYTHONPATH=/home/bipin/ros2_ws/build/banana_webcam_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bipin/ros2_ws/build/banana_webcam_driver/build
+[0.731s] running develop
+[0.864s] Removing /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana-webcam-driver.egg-link (link to .)
+[0.938s] Invoked command in '/home/bipin/ros2_ws/build/banana_webcam_driver' returned '0': PYTHONPATH=/home/bipin/ros2_ws/build/banana_webcam_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bipin/ros2_ws/build/banana_webcam_driver/build
+[0.940s] Invoking command in '/home/bipin/ros2_ws/src/banana_webcam_driver': PYTHONPATH=/home/bipin/ros2_ws/build/banana_webcam_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/banana_webcam_driver build --build-base /home/bipin/ros2_ws/build/banana_webcam_driver/build install --record /home/bipin/ros2_ws/build/banana_webcam_driver/install.log --single-version-externally-managed install_data --force
+[1.141s] running egg_info
+[1.142s] writing ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/dependency_links.txt
+[1.142s] writing entry points to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/entry_points.txt
+[1.142s] writing requirements to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/requires.txt
+[1.142s] writing top-level names to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/top_level.txt
+[1.144s] reading manifest file '../../build/banana_webcam_driver/banana_webcam_driver.egg-info/SOURCES.txt'
+[1.146s] writing manifest file '../../build/banana_webcam_driver/banana_webcam_driver.egg-info/SOURCES.txt'
+[1.146s] running build
+[1.146s] running build_py
+[1.146s] copying banana_webcam_driver/webcam_driver.py -> /home/bipin/ros2_ws/build/banana_webcam_driver/build/lib/banana_webcam_driver
+[1.146s] running install
+[1.147s] running install_lib
+[1.148s] creating /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver
+[1.148s] copying /home/bipin/ros2_ws/build/banana_webcam_driver/build/lib/banana_webcam_driver/webcam_driver.py -> /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver
+[1.148s] copying /home/bipin/ros2_ws/build/banana_webcam_driver/build/lib/banana_webcam_driver/__init__.py -> /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver
+[1.149s] byte-compiling /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver/webcam_driver.py to webcam_driver.cpython-310.pyc
+[1.150s] byte-compiling /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver/__init__.py to __init__.cpython-310.pyc
+[1.150s] running install_data
+[1.150s] copying resource/banana_webcam_driver -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/ament_index/resource_index/packages
+[1.150s] copying package.xml -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/banana_webcam_driver
+[1.150s] running install_egg_info
+[1.153s] Copying ../../build/banana_webcam_driver/banana_webcam_driver.egg-info to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver-0.1.0-py3.10.egg-info
+[1.154s] running install_scripts
+[1.171s] Installing webcam_driver script to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/banana_webcam_driver
+[1.172s] writing list of installed files to '/home/bipin/ros2_ws/build/banana_webcam_driver/install.log'
+[1.191s] Invoked command in '/home/bipin/ros2_ws/src/banana_webcam_driver' returned '0': PYTHONPATH=/home/bipin/ros2_ws/build/banana_webcam_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/banana_webcam_driver build --build-base /home/bipin/ros2_ws/build/banana_webcam_driver/build install --record /home/bipin/ros2_ws/build/banana_webcam_driver/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/bipin/ros2_ws/build/blue_color_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target color_filter[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/color_filter.dir/src/color_filter.cpp.o[0m
+[0.333s] [01m[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
+[0.333s]     4 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K
+[0.333s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.333s] compilation terminated.
+[0.393s] gmake[2]: *** [CMakeFiles/color_filter.dir/build.make:76: CMakeFiles/color_filter.dir/src/color_filter.cpp.o] Error 1
+[0.394s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/color_filter.dir/all] Error 2
+[0.394s] gmake: *** [Makefile:146: all] Error 2
+[0.396s] Invoked command in '/home/bipin/ros2_ws/build/blue_color_filter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8

@@ -1,0 +1,3 @@
+[console_scripts]
+webcam_driver = banana_webcam_driver.webcam_driver:main
+

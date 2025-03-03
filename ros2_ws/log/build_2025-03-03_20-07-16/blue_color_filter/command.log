@@ -1,0 +1,2 @@
+Invoking command in '/home/bipin/ros2_ws/build/blue_color_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8
+Invoked command in '/home/bipin/ros2_ws/build/blue_color_filter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble /usr/bin/cmake --build /home/bipin/ros2_ws/build/blue_color_filter -- -j8 -l8

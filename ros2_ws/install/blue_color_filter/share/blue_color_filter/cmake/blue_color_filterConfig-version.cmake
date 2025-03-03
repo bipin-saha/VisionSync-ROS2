@@ -1,0 +1,1 @@
+/home/bipin/ros2_ws/build/blue_color_filter/ament_cmake_core/blue_color_filterConfig-version.cmake

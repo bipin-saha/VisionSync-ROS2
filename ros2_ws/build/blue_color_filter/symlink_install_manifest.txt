@@ -1,0 +1,16 @@
+/home/bipin/ros2_ws/install/blue_color_filter/lib/blue_color_filter/color_filter
+/home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/package_run_dependencies/blue_color_filter
+/home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/parent_prefix_path/blue_color_filter
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.sh
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.dsv
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.sh
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.dsv
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.bash
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.sh
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.zsh
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.dsv
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.dsv
+/home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/packages/blue_color_filter
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig.cmake
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig-version.cmake
+/home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.xml

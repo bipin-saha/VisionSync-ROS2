@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/PKG-INFO
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/SOURCES.txt
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/dependency_links.txt
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/entry_points.txt
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/requires.txt
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/top_level.txt
+../../build/banana_webcam_driver/banana_webcam_driver.egg-info/zip-safe
+banana_webcam_driver/__init__.py
+banana_webcam_driver/webcam_driver.py
+resource/banana_webcam_driver
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

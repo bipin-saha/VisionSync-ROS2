@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000656] (-) JobUnselected: {'identifier': 'banana_webcam_driver'}
+[0.000828] (blue_color_filter) JobQueued: {'identifier': 'blue_color_filter', 'dependencies': OrderedDict()}
+[0.001208] (blue_color_filter) JobStarted: {'identifier': 'blue_color_filter'}
+[0.007287] (blue_color_filter) JobProgress: {'identifier': 'blue_color_filter', 'progress': 'cmake'}
+[0.007652] (blue_color_filter) JobProgress: {'identifier': 'blue_color_filter', 'progress': 'build'}
+[0.008313] (blue_color_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bipin/ros2_ws/build/blue_color_filter', '--', '-j8', '-l8'], 'cwd': '/home/bipin/ros2_ws/build/blue_color_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bipin'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bipin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/bipin/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '25144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bipin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bipin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bipin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bipin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/graviton:@/tmp/.ICE-unix/2144,unix/graviton:/tmp/.ICE-unix/2144'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c1501247_6a79_4aa0_9195_1f7076843b33'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZK4N22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.421'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bipin/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bipin/ros2_ws/build/blue_color_filter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/bipin/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble')]), 'shell': False}
+[0.044840] (blue_color_filter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target color_filter\x1b[0m\n'}
+[0.059678] (blue_color_filter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/color_filter.dir/src/color_filter.cpp.o\x1b[0m\n'}
+[0.099997] (-) TimerEvent: {}
+[0.200264] (-) TimerEvent: {}
+[0.300541] (-) TimerEvent: {}
+[0.400793] (-) TimerEvent: {}
+[0.501131] (-) TimerEvent: {}
+[0.601447] (-) TimerEvent: {}
+[0.701766] (-) TimerEvent: {}
+[0.802039] (-) TimerEvent: {}
+[0.902313] (-) TimerEvent: {}
+[1.002592] (-) TimerEvent: {}
+[1.103245] (-) TimerEvent: {}
+[1.208502] (-) TimerEvent: {}
+[1.313462] (-) TimerEvent: {}
+[1.420343] (-) TimerEvent: {}
+[1.521623] (-) TimerEvent: {}
+[1.621922] (-) TimerEvent: {}
+[1.722219] (-) TimerEvent: {}
+[1.822511] (-) TimerEvent: {}
+[1.922809] (-) TimerEvent: {}
+[2.023104] (-) TimerEvent: {}
+[2.124964] (-) TimerEvent: {}
+[2.230626] (-) TimerEvent: {}
+[2.332109] (-) TimerEvent: {}
+[2.433339] (-) TimerEvent: {}
+[2.533613] (-) TimerEvent: {}
+[2.633899] (-) TimerEvent: {}
+[2.734179] (-) TimerEvent: {}
+[2.834462] (-) TimerEvent: {}
+[2.934757] (-) TimerEvent: {}
+[3.035090] (-) TimerEvent: {}
+[3.135386] (-) TimerEvent: {}
+[3.235677] (-) TimerEvent: {}
+[3.336085] (-) TimerEvent: {}
+[3.436365] (-) TimerEvent: {}
+[3.536652] (-) TimerEvent: {}
+[3.636954] (-) TimerEvent: {}
+[3.720998] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ColorFilterNode::initialize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.721193] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:21:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Kshared_from_this\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[3.721257] (blue_color_filter) StderrLine: {'line': b'   21 |         image_transport::ImageTransport it(\x1b[01;31m\x1b[Kshared_from_this\x1b[m\x1b[K()); // Now safe to call shared_from_this()\n'}
+[3.721314] (blue_color_filter) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.721463] (blue_color_filter) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.721546] (blue_color_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.721603] (blue_color_filter) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:1\x1b[m\x1b[K:\n'}
+[3.721656] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:811:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = ColorFilterNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.721738] (blue_color_filter) StderrLine: {'line': b'  811 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K() const\n'}
+[3.721793] (blue_color_filter) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.721844] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:807:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = ColorFilterNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.721895] (blue_color_filter) StderrLine: {'line': b'  807 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K()\n'}
+[3.721945] (blue_color_filter) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.721993] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:811:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.722044] (blue_color_filter) StderrLine: {'line': b'  811 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K() const\n'}
+[3.722093] (blue_color_filter) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.722142] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:807:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.722193] (blue_color_filter) StderrLine: {'line': b'  807 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K()\n'}
+[3.722242] (blue_color_filter) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.737083] (-) TimerEvent: {}
+[3.837340] (-) TimerEvent: {}
+[3.937654] (-) TimerEvent: {}
+[4.037907] (-) TimerEvent: {}
+[4.138189] (-) TimerEvent: {}
+[4.238471] (-) TimerEvent: {}
+[4.338787] (-) TimerEvent: {}
+[4.439066] (-) TimerEvent: {}
+[4.539554] (-) TimerEvent: {}
+[4.640785] (-) TimerEvent: {}
+[4.741082] (-) TimerEvent: {}
+[4.841445] (-) TimerEvent: {}
+[4.941738] (-) TimerEvent: {}
+[5.042027] (-) TimerEvent: {}
+[5.077303] (blue_color_filter) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/color_filter.dir/build.make:76: CMakeFiles/color_filter.dir/src/color_filter.cpp.o] Error 1\n'}
+[5.077603] (blue_color_filter) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/color_filter.dir/all] Error 2\n'}
+[5.077756] (blue_color_filter) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.080343] (blue_color_filter) CommandEnded: {'returncode': 2}
+[5.091892] (blue_color_filter) JobEnded: {'identifier': 'blue_color_filter', 'rc': 2}
+[5.102567] (-) EventReactorShutdown: {}

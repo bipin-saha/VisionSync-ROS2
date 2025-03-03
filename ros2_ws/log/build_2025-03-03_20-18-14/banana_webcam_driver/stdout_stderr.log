@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/entry_points.txt
+writing requirements to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/requires.txt
+writing top-level names to ../../build/banana_webcam_driver/banana_webcam_driver.egg-info/top_level.txt
+reading manifest file '../../build/banana_webcam_driver/banana_webcam_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/banana_webcam_driver/banana_webcam_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying banana_webcam_driver/webcam_driver.py -> /home/bipin/ros2_ws/build/banana_webcam_driver/build/lib/banana_webcam_driver
+running install
+running install_lib
+copying /home/bipin/ros2_ws/build/banana_webcam_driver/build/lib/banana_webcam_driver/webcam_driver.py -> /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver
+byte-compiling /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver/webcam_driver.py to webcam_driver.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/banana_webcam_driver/banana_webcam_driver.egg-info to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana_webcam_driver-0.1.0-py3.10.egg-info
+running install_scripts
+Installing webcam_driver script to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/banana_webcam_driver
+writing list of installed files to '/home/bipin/ros2_ws/build/banana_webcam_driver/install.log'

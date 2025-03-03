@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (banana_webcam_driver) JobQueued: {'identifier': 'banana_webcam_driver', 'dependencies': OrderedDict()}
+[0.000287] (blue_color_filter) JobQueued: {'identifier': 'blue_color_filter', 'dependencies': OrderedDict()}
+[0.000308] (banana_webcam_driver) JobStarted: {'identifier': 'banana_webcam_driver'}
+[0.061987] (blue_color_filter) JobStarted: {'identifier': 'blue_color_filter'}
+[0.099197] (-) TimerEvent: {}
+[0.199468] (-) TimerEvent: {}
+[0.296998] (blue_color_filter) JobProgress: {'identifier': 'blue_color_filter', 'progress': 'cmake'}
+[0.298209] (blue_color_filter) JobProgress: {'identifier': 'blue_color_filter', 'progress': 'build'}
+[0.298335] (blue_color_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bipin/ros2_ws/build/blue_color_filter', '--', '-j8', '-l8'], 'cwd': '/home/bipin/ros2_ws/build/blue_color_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bipin'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bipin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/bipin/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2170'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bipin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bipin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bipin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bipin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/graviton:@/tmp/.ICE-unix/2144,unix/graviton:/tmp/.ICE-unix/2144'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bce5d9cd_217e_4853_b768_c5022012de3a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZK4N22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.421'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bipin/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bipin/ros2_ws/build/blue_color_filter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/bipin/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bipin/ros2_ws/build/banana_webcam_driver:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble')]), 'shell': False}
+[0.301343] (-) TimerEvent: {}
+[0.348200] (blue_color_filter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/color_filter.dir/src/color_filter.cpp.o\x1b[0m\n'}
+[0.401439] (-) TimerEvent: {}
+[0.501755] (-) TimerEvent: {}
+[0.602034] (-) TimerEvent: {}
+[0.612271] (banana_webcam_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bipin/ros2_ws/build/banana_webcam_driver/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/bipin/ros2_ws/build/banana_webcam_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bipin', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bipin', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/bipin/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2170', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bipin/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bipin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bipin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bipin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/graviton:@/tmp/.ICE-unix/2144,unix/graviton:/tmp/.ICE-unix/2144', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bce5d9cd_217e_4853_b768_c5022012de3a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZK4N22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.421', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/bipin/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bipin/ros2_ws/build/banana_webcam_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/bipin/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bipin/ros2_ws/build/banana_webcam_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:/home/bipin/ros2_ws/build/banana_webcam_driver:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/bipin/ros2_ws/install/blue_color_filter'}, 'shell': False}
+[0.702158] (-) TimerEvent: {}
+[0.802487] (-) TimerEvent: {}
+[0.849492] (banana_webcam_driver) StdoutLine: {'line': b'running develop\n'}
+[0.902805] (-) TimerEvent: {}
+[0.998748] (banana_webcam_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.998920] (banana_webcam_driver) StdoutLine: {'line': b'writing banana_webcam_driver.egg-info/PKG-INFO\n'}
+[0.999014] (banana_webcam_driver) StdoutLine: {'line': b'writing dependency_links to banana_webcam_driver.egg-info/dependency_links.txt\n'}
+[0.999143] (banana_webcam_driver) StdoutLine: {'line': b'writing entry points to banana_webcam_driver.egg-info/entry_points.txt\n'}
+[0.999242] (banana_webcam_driver) StdoutLine: {'line': b'writing requirements to banana_webcam_driver.egg-info/requires.txt\n'}
+[0.999343] (banana_webcam_driver) StdoutLine: {'line': b'writing top-level names to banana_webcam_driver.egg-info/top_level.txt\n'}
+[1.000843] (banana_webcam_driver) StdoutLine: {'line': b"reading manifest file 'banana_webcam_driver.egg-info/SOURCES.txt'\n"}
+[1.001693] (banana_webcam_driver) StdoutLine: {'line': b"writing manifest file 'banana_webcam_driver.egg-info/SOURCES.txt'\n"}
+[1.002834] (-) TimerEvent: {}
+[1.002977] (banana_webcam_driver) StdoutLine: {'line': b'running build_ext\n'}
+[1.003107] (banana_webcam_driver) StdoutLine: {'line': b'Creating /home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages/banana-webcam-driver.egg-link (link to .)\n'}
+[1.003780] (banana_webcam_driver) StdoutLine: {'line': b'Installing webcam_driver script to /home/bipin/ros2_ws/install/banana_webcam_driver/lib/banana_webcam_driver\n'}
+[1.004029] (banana_webcam_driver) StdoutLine: {'line': b'\n'}
+[1.004125] (banana_webcam_driver) StdoutLine: {'line': b'Installed /home/bipin/ros2_ws/build/banana_webcam_driver\n'}
+[1.004228] (banana_webcam_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[1.004299] (banana_webcam_driver) StdoutLine: {'line': b'symbolically linking /home/bipin/ros2_ws/build/banana_webcam_driver/resource/banana_webcam_driver -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/ament_index/resource_index/packages\n'}
+[1.004406] (banana_webcam_driver) StdoutLine: {'line': b'symbolically linking /home/bipin/ros2_ws/build/banana_webcam_driver/package.xml -> /home/bipin/ros2_ws/install/banana_webcam_driver/share/banana_webcam_driver\n'}
+[1.033332] (banana_webcam_driver) CommandEnded: {'returncode': 0}
+[1.044873] (banana_webcam_driver) JobEnded: {'identifier': 'banana_webcam_driver', 'rc': 0}
+[1.102938] (-) TimerEvent: {}
+[1.203253] (-) TimerEvent: {}
+[1.303537] (-) TimerEvent: {}
+[1.403822] (-) TimerEvent: {}
+[1.504101] (-) TimerEvent: {}
+[1.604446] (-) TimerEvent: {}
+[1.704734] (-) TimerEvent: {}
+[1.805020] (-) TimerEvent: {}
+[1.905340] (-) TimerEvent: {}
+[2.005626] (-) TimerEvent: {}
+[2.105915] (-) TimerEvent: {}
+[2.206201] (-) TimerEvent: {}
+[2.306484] (-) TimerEvent: {}
+[2.406777] (-) TimerEvent: {}
+[2.507067] (-) TimerEvent: {}
+[2.607402] (-) TimerEvent: {}
+[2.707694] (-) TimerEvent: {}
+[2.807987] (-) TimerEvent: {}
+[2.908282] (-) TimerEvent: {}
+[3.008619] (-) TimerEvent: {}
+[3.108916] (-) TimerEvent: {}
+[3.188983] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KColorFilterNode::ColorFilterNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.189269] (blue_color_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bipin/ros2_ws/src/blue_color_filter/src/color_filter.cpp:20:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kqos_profile\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.189404] (blue_color_filter) StderrLine: {'line': b'   20 |         rclcpp::QoS \x1b[01;35m\x1b[Kqos_profile\x1b[m\x1b[K = rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_sensor_data));\n'}
+[3.189505] (blue_color_filter) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.209013] (-) TimerEvent: {}
+[3.309333] (-) TimerEvent: {}
+[3.414399] (-) TimerEvent: {}
+[3.515883] (-) TimerEvent: {}
+[3.617093] (-) TimerEvent: {}
+[3.717451] (-) TimerEvent: {}
+[3.817824] (-) TimerEvent: {}
+[3.918149] (-) TimerEvent: {}
+[4.018454] (-) TimerEvent: {}
+[4.118748] (-) TimerEvent: {}
+[4.219031] (-) TimerEvent: {}
+[4.319364] (-) TimerEvent: {}
+[4.419648] (-) TimerEvent: {}
+[4.519941] (-) TimerEvent: {}
+[4.620261] (-) TimerEvent: {}
+[4.720603] (-) TimerEvent: {}
+[4.820871] (-) TimerEvent: {}
+[4.921148] (-) TimerEvent: {}
+[5.021421] (-) TimerEvent: {}
+[5.121701] (-) TimerEvent: {}
+[5.221964] (-) TimerEvent: {}
+[5.322219] (-) TimerEvent: {}
+[5.422471] (-) TimerEvent: {}
+[5.522750] (-) TimerEvent: {}
+[5.623027] (-) TimerEvent: {}
+[5.723276] (-) TimerEvent: {}
+[5.823555] (-) TimerEvent: {}
+[5.923839] (-) TimerEvent: {}
+[6.024146] (-) TimerEvent: {}
+[6.124444] (-) TimerEvent: {}
+[6.224717] (-) TimerEvent: {}
+[6.325002] (-) TimerEvent: {}
+[6.425276] (-) TimerEvent: {}
+[6.525554] (-) TimerEvent: {}
+[6.625830] (-) TimerEvent: {}
+[6.726103] (-) TimerEvent: {}
+[6.826405] (-) TimerEvent: {}
+[6.926687] (-) TimerEvent: {}
+[7.026963] (-) TimerEvent: {}
+[7.127201] (-) TimerEvent: {}
+[7.227473] (-) TimerEvent: {}
+[7.327748] (-) TimerEvent: {}
+[7.428024] (-) TimerEvent: {}
+[7.528274] (-) TimerEvent: {}
+[7.628525] (-) TimerEvent: {}
+[7.728808] (-) TimerEvent: {}
+[7.829087] (-) TimerEvent: {}
+[7.929339] (-) TimerEvent: {}
+[8.029612] (-) TimerEvent: {}
+[8.129889] (-) TimerEvent: {}
+[8.230204] (-) TimerEvent: {}
+[8.330473] (-) TimerEvent: {}
+[8.430745] (-) TimerEvent: {}
+[8.531019] (-) TimerEvent: {}
+[8.631283] (-) TimerEvent: {}
+[8.731568] (-) TimerEvent: {}
+[8.831853] (-) TimerEvent: {}
+[8.932164] (-) TimerEvent: {}
+[9.032459] (-) TimerEvent: {}
+[9.087162] (blue_color_filter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable color_filter\x1b[0m\n'}
+[9.132587] (-) TimerEvent: {}
+[9.232879] (-) TimerEvent: {}
+[9.333173] (-) TimerEvent: {}
+[9.433478] (-) TimerEvent: {}
+[9.533769] (-) TimerEvent: {}
+[9.634047] (-) TimerEvent: {}
+[9.734334] (-) TimerEvent: {}
+[9.834610] (-) TimerEvent: {}
+[9.934890] (-) TimerEvent: {}
+[10.035175] (-) TimerEvent: {}
+[10.089603] (blue_color_filter) StdoutLine: {'line': b'[100%] Built target color_filter\n'}
+[10.135304] (-) TimerEvent: {}
+[10.152011] (blue_color_filter) CommandEnded: {'returncode': 0}
+[10.152407] (blue_color_filter) JobProgress: {'identifier': 'blue_color_filter', 'progress': 'install'}
+[10.160159] (blue_color_filter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bipin/ros2_ws/build/blue_color_filter'], 'cwd': '/home/bipin/ros2_ws/build/blue_color_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bipin'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bipin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/bipin/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2170'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bipin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bipin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bipin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bipin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/graviton:@/tmp/.ICE-unix/2144,unix/graviton:/tmp/.ICE-unix/2144'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bce5d9cd_217e_4853_b768_c5022012de3a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZK4N22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.421'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bipin/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bipin/ros2_ws/build/blue_color_filter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/bipin/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bipin/ros2_ws/build/banana_webcam_driver:/home/bipin/ros2_ws/install/banana_webcam_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bipin/ros2_ws/install/blue_color_filter:/home/bipin/ros2_ws/install/banana_webcam_driver:/opt/ros/humble')]), 'shell': False}
+[10.166724] (blue_color_filter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.167083] (blue_color_filter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.167357] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/lib/blue_color_filter/color_filter\n'}
+[10.167536] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/package_run_dependencies/blue_color_filter\n'}
+[10.167698] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/parent_prefix_path/blue_color_filter\n'}
+[10.167878] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.sh\n'}
+[10.167998] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/ament_prefix_path.dsv\n'}
+[10.168094] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.sh\n'}
+[10.168195] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/environment/path.dsv\n'}
+[10.168321] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.bash\n'}
+[10.168449] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.sh\n'}
+[10.168588] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.zsh\n'}
+[10.168740] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/local_setup.dsv\n'}
+[10.168869] (blue_color_filter) StdoutLine: {'line': b'-- Symlinking: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.dsv\n'}
+[10.176672] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/ament_index/resource_index/packages/blue_color_filter\n'}
+[10.176904] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig.cmake\n'}
+[10.177003] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/cmake/blue_color_filterConfig-version.cmake\n'}
+[10.177100] (blue_color_filter) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bipin/ros2_ws/install/blue_color_filter/share/blue_color_filter/package.xml\n'}
+[10.179067] (blue_color_filter) CommandEnded: {'returncode': 0}
+[10.190583] (blue_color_filter) JobEnded: {'identifier': 'blue_color_filter', 'rc': 0}
+[10.191266] (-) EventReactorShutdown: {}
