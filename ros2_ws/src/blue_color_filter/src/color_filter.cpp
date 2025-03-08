@@ -72,6 +72,9 @@ private:
         // Convert to ROS messages and publish
         auto filtered_msg = cv_bridge::CvImage(msg->header, "bgr8", black_screen).toImageMsg();
         auto overlayed_msg = cv_bridge::CvImage(msg->header, "bgr8", overlayed).toImageMsg();
+        
+        cv::imshow("Filtered Image", black_screen);
+        cv::imshow("Overlayed Image", overlayed);
 
         image_pub_->publish(*filtered_msg);
         overlay_pub_->publish(*overlayed_msg);
