@@ -57,24 +57,27 @@ private:
         // Create mask for the specified color range
         cv::inRange(hsv, cv::Scalar(h_low, s_low, v_low), cv::Scalar(h_high, s_high, v_high), mask);
 
-        // Extract the color and set to red (0,0,255)
-        filtered = cv::Mat::zeros(frame.size(), frame.type());
-        filtered.setTo(cv::Scalar(0, 0, 255), mask); // Change detected color to red
-
-        // Create black screen for filtered image
+        // Create black screen for filtered image and apply mask
         black_screen = cv::Mat::zeros(frame.size(), frame.type());
-        filtered.copyTo(black_screen, mask);
+        frame.copyTo(black_screen, mask);
+        // show_black_screen = black_screen;
+        cv::imshow("Filtered Image", black_screen);
 
-        // Overlay the filtered color onto the original image
+        // Convert the masked area to red
+        cv::Mat red_mask(frame.size(), frame.type(), cv::Scalar(0, 0, 255));
+        red_mask.copyTo(black_screen, mask);
+
+        // Overlay the red masked area onto the original image without blending
         overlayed = frame.clone();
-        cv::addWeighted(filtered, 0.5, overlayed, 1.0, 0, overlayed); // Blend filtered image onto original
+        red_mask.copyTo(overlayed, mask);
 
         // Convert to ROS messages and publish
         auto filtered_msg = cv_bridge::CvImage(msg->header, "bgr8", black_screen).toImageMsg();
         auto overlayed_msg = cv_bridge::CvImage(msg->header, "bgr8", overlayed).toImageMsg();
-        
-        cv::imshow("Filtered Image", black_screen);
+
+
         cv::imshow("Overlayed Image", overlayed);
+        cv::waitKey(1);
 
         image_pub_->publish(*filtered_msg);
         overlay_pub_->publish(*overlayed_msg);
